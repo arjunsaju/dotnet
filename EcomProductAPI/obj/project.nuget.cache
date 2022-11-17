@@ -1,0 +1,67 @@
+{
+  "version": 2,
+  "dgSpecHash": "vfP5vij22OLJcAlyLPVglFbLV71gQK0vOaHla3/zP40l0VSQxrFWKQ9oVuAU6lHIZXmbZpYbMyVswOtK3KCZSw==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\vishnu-sasi\\Downloads\\ECOMMERCE-API\\Ecommerce - Copy - Copy (2)\\ecommerceapi\\EcomProductAPI\\EcomProductAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vishnu-sasi\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\6.0.10\\microsoft.aspnetcore.identity.entityframeworkcore.6.0.10.nupkg.sha512",
+    "C:\\Users\\vishnu-sasi\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\6.0.10\\microsoft.aspnetcore.mvc.newtonsoftjson.6.0.10.nupkg.sha512",
+    "C:\\Users\\vishnu-sasi\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.10\\microsoft.entityframeworkcore.sqlserver.6.0.10.nupkg.sha512",
+    "C:\\Users\\vishnu-sasi\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.10\\microsoft.entityframeworkcore.tools.6.0.10.nupkg.sha512",
+    "C:\\Users\\vishnu-sasi\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\vishnu-sasi\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\vishnu-sasi\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.design\\6.0.10\\microsoft.visualstudio.web.codegeneration.design.6.0.10.nupkg.sha512",
+    "C:\\Users\\vishnu-sasi\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\vishnu-sasi\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\vishnu-sasi\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\vishnu-sasi\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
+    "C:\\Users\\vishnu-sasi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.31\\microsoft.netcore.app.host.win-x64.3.1.31.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.EntityFrameworkCore.SqlServer 6.0.10 is not compatible with netcoreapp3.1 (.NETCoreApp,Version=v3.1). Package Microsoft.EntityFrameworkCore.SqlServer 6.0.10 supports: net6.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Microsoft.EntityFrameworkCore.SqlServer",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.AspNetCore.Mvc.NewtonsoftJson 6.0.10 is not compatible with netcoreapp3.1 (.NETCoreApp,Version=v3.1). Package Microsoft.AspNetCore.Mvc.NewtonsoftJson 6.0.10 supports: net6.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Microsoft.AspNetCore.Mvc.NewtonsoftJson",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.AspNetCore.Identity.EntityFrameworkCore 6.0.10 is not compatible with netcoreapp3.1 (.NETCoreApp,Version=v3.1). Package Microsoft.AspNetCore.Identity.EntityFrameworkCore 6.0.10 supports: net6.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Microsoft.AspNetCore.Identity.EntityFrameworkCore",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.EntityFrameworkCore.Tools 6.0.10 is not compatible with netcoreapp3.1 (.NETCoreApp,Version=v3.1). Package Microsoft.EntityFrameworkCore.Tools 6.0.10 supports: net6.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Microsoft.EntityFrameworkCore.Tools",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.VisualStudio.Web.CodeGeneration.Design 6.0.10 is not compatible with netcoreapp3.1 (.NETCoreApp,Version=v3.1). Package Microsoft.VisualStudio.Web.CodeGeneration.Design 6.0.10 supports: net6.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Microsoft.VisualStudio.Web.CodeGeneration.Design",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
